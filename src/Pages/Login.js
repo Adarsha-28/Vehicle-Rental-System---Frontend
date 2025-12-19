@@ -24,7 +24,7 @@ const Login = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:9000/api/auth/login", {
+      const res = await fetch("https://vehicle-rental-system-backend-qtkj.onrender.com/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
@@ -83,3 +83,4 @@ const Login = () => {
 };
 
 export default Login;
+
