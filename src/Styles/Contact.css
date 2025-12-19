@@ -1,0 +1,50 @@
+.contactPage {
+  padding: 40px 20px;
+  background: #1f1f1f;
+  color: #f9fafb;
+}
+
+.contactPage h2 {
+  font-size: 32px;
+  color: #facc15;
+  text-align: center;
+}
+
+.contactPage .subtitle {
+  text-align: center;
+  color: #d1d5db;
+  margin-bottom: 30px;
+}
+
+.contactContainer {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.contactInfo,
+.contactForm {
+  background: #2b2b2b;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.contactPage input,
+.contactPage textarea {
+  width: 95%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: none;
+}
+
+.contactPage button {
+  width: 100%;
+  padding: 12px;
+  background: #facc15;
+  border-radius: 10px;
+  font-weight: 700;
+  border: none;
+}

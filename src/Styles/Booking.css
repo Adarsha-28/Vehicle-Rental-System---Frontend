@@ -1,0 +1,57 @@
+.bookingPage {
+  max-width: 520px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.bookingPage img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.bookingPage label {
+  display: block;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.bookingPage input,
+.bookingPage select,
+.bookingPage textarea {
+  width: 95%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.bookingPage textarea {
+  resize: vertical;
+  min-height: 70px;
+}
+
+.bookingPage .price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bookingPage button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 18px;
+  background: #facc15;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.bookingPage button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
